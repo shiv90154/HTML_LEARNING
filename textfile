@@ -17,3 +17,9 @@ git push -u origin main
 
 for cloning ==>
 git clone https://github.com/CodeAadarsh/HTML_LEARNING.git
+
+
+
+git shortcut for add and commit :
+
+git commit -a -m "textfile changed"
