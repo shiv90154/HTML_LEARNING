@@ -1,0 +1,19 @@
+git init -- Initz
+git add . -- if "." then all files will be send to staging area else "Filename" will be added as per user Input
+----- Staging----
+git commit -m "Discription about commit"
+-- commit --
+for checking -->
+git status
+for making file untracked-->
+git restore --staged
+change branch name to main 
+git branch -M main
+adding URL==>
+git remote add origin git@github.com:CodeAadarsh/HTML_LEARNING.git
+files to be upoloading on github
+git push -u origin main
+
+
+for cloning ==>
+git clone https://github.com/CodeAadarsh/HTML_LEARNING.git
