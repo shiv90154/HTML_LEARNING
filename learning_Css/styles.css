@@ -1,0 +1,56 @@
+.one{
+    background-color: aqua;
+}
+.two{
+    color: brown;
+}
+#idselector{
+    color: blue;
+}
+/* h1{
+    color: wheat;
+} */
+/* 
+* {
+    font-style: italic;
+    font-size: x-;
+}
+*/
+.big{
+    font-size: 26px;
+}
+input[disabled]{
+    height: 30px;
+    width: 3000px;
+
+}
+.brstyles{
+    border: 10px;
+    border-style:  dotted solid outset dashed;
+}
+.brstyles2{
+    border: 20px double;
+}
+.Hello{
+    border: 10px solid;
+    padding: 50px 20px;
+    margin: 50px 30px; 
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    padding: 10px;
+}
+.box:hover{
+    background-color: darkgoldenrod;
+    color: beige;
+    font-weight: bold;
+}
+.box:active{
+    width:200px;
+}
+.checkKeyboard:focus{
+    font-size: 80px;
+    width: 50pt;
+}
