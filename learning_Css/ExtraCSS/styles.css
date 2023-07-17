@@ -1,0 +1,54 @@
+.imgtag{
+width: 500px;
+opacity:0.2;
+}
+.imgtag:hover{
+    opacity: 1;
+    width: 550px;
+}
+.container{
+    background-color: coral;
+    width: 700px;
+    height: 500px;
+}
+.item{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: darkmagenta;
+    display: inline-block;
+
+    animation: bounce 2s;
+    animation-iteration-count: infinite;
+}
+.one{
+    animation-timing-function: ease-in;
+}
+.two{
+    animation-timing-function: ease-out;
+}
+.three{
+    animation-timing-function:linear;
+}
+
+@keyframes bounce {
+    0%{
+        background-color: aqua;
+    }
+    25%{
+        background-color: blue;
+    }
+    50%{
+        
+        transform: translateX(500px);
+        
+    }
+    75%{
+        transform: translateY(400px);
+    }
+    100%{
+        background-color:beige;
+
+    }
+    
+}

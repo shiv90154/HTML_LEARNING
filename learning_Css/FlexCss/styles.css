@@ -1,0 +1,25 @@
+.container{
+    background-color: coral;
+    width: 700px;
+    height: 500px;
+    display: flex;
+    flex-direction:row;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
+    /* flex-wrap: nowrap; */
+}
+.item{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+    background-color: darkmagenta;
+}
+.ex{
+    flex-grow: 10;
+    background-color: aqua;
+}
+.fl{
+    flex-grow: 1000;
+    background-color: brown;
+
+}
