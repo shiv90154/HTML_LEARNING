@@ -118,3 +118,44 @@ console.log(af--, "--")
 // Boolean true false
 // undefined 
 // null 
+
+
+// Refrence Type Variables
+
+let arr = [12, 34,56,70,52]
+let arr1 = [12,"car","ship"]
+// array === index
+arr[4] = 1000
+console.log(arr)
+console.log(arr[4])
+
+let ob1 = {key:"value"}
+let ob2 = {name:"Aadarsh",phoneNumber:12345}
+
+let arOb= [
+{name:"a",age:28,gender:'M'},
+{name:"b",age:38,gender:'F'},
+{name:"c",age:48,gender:'M'}
+]
+console.log(arr.length)
+console.log(arr)
+console.log(arr.push())
+console.log(arr.slice(0,4))
+// console.log(arr.pop())
+// console.log(arr)
+let arr2 = [[124,234,343,121,23,[1213,23243,7000]],[1212,1232],[2334,123]]
+
+console.log(arr2[0][5][2])
+let obOb= {val1:{name:"a",age:28,gender:'M'},
+    val2:{name:"b",age:38,gender:'F'},
+    val3:{name:"c",age:48,gender:'M'}
+}
+
+console.log(obOb.val3.gender)
+ let obArr = {
+    key1:[12,23,34,21],
+    key2:[1223,34,1234],
+    key3:[121,23,34]
+ }
+
+ console.log(obArr.key3[2])
